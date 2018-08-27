@@ -43,6 +43,7 @@ export default {
     }
     if(this.tagList.length < 1){
       this.getTagList()
+      console.log('dashabi')
     }
     if(this.articleList.length < 1){
       this.getArticleList(this.options)
