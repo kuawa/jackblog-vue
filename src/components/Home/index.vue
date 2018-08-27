@@ -36,6 +36,7 @@ export default {
   created(){
     if(this.indexImg === ''){
       this.getIndexImage()
+      console.log(111)
     }
     if(this.tagList.length < 1){
       this.getTagList()
