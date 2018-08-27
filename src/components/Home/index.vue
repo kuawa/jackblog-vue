@@ -36,7 +36,7 @@ export default {
   created(){
     if(this.indexImg === ''){
       this.getIndexImage()
-      console.log(111)
+      console.log('你是一个傻逼')
     }
     if(this.tagList.length < 1){
       this.getTagList()
